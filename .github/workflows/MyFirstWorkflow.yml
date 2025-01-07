@@ -16,4 +16,4 @@ jobs:
       - name: List files in repository
         run: |
           echo "The repositoru ${{ github.repository }} contains
-          the following files:" tree
+          the following files:" && tree .
